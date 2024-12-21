@@ -25,6 +25,11 @@ activate_venv.ps1 -u
 activate_venv.ps1 -update
 ```
 
+### Environment variables
+This project uses .env file to contruct the database connection url.
+
+The .env file is automatically generated (if it doesn't yet exist) from the example file when activating the virtual environment.
+
 ### Alembic usage
 
 #### Generating a Migration Script

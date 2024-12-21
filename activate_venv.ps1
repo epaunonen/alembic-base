@@ -15,3 +15,8 @@ if (-not (Test-Path .venv) -or ($u) -or ($update)) {
     .venv/Scripts/Activate.ps1
 
 }
+
+# Duplicate .env.example to .env, if env-file does not exist
+if (-not (Test-Path .env)) {
+    Copy-Item ".env.example" -Destination ".env"
+}

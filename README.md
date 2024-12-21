@@ -3,8 +3,8 @@
 This repository provides a base structure for projects using Alembic, a lightweight database migration tool for SQLAlchemy. Use this project as a starting point to manage database schema changes efficiently.
 
 > [!NOTE]
-> Useful links
-> https://alembic.sqlalchemy.org/en/latest/tutorial.html
+> Useful links:
+> * https://alembic.sqlalchemy.org/en/latest/tutorial.html
 
 ## Usage
 
